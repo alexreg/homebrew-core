@@ -6,7 +6,7 @@ class Cake < Formula
 
   bottle :unneeded
 
-  depends_on "mono" => :recommended
+  depends_on :mono => "4.2.3"
 
   def install
     libexec.install Dir["*.dll"]

@@ -6,7 +6,7 @@ class Paket < Formula
 
   bottle :unneeded
 
-  depends_on "mono" => :recommended
+  depends_on :mono => "3.2"
 
   def install
     libexec.install "paket.exe"

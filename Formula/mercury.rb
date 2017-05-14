@@ -15,7 +15,7 @@ class Mercury < Formula
 
   depends_on "erlang" => :optional
   depends_on "homebrew/science/hwloc" => :optional
-  depends_on "mono" => :optional
+  depends_on :mono => ["4.8.1", :optional]
 
   def install
     args = ["--prefix=#{prefix}",

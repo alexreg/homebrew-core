@@ -32,7 +32,7 @@ class Uwsgi < Formula
   depends_on "lua@5.1" => :optional
   depends_on "mongodb" => :optional
   depends_on "mongrel2" => :optional
-  depends_on "mono" => :optional
+  depends_on :mono => ["4.8.1", :optional]
   depends_on "nagios" => :optional
   depends_on "postgresql" => :optional
   depends_on "pypy" => :optional

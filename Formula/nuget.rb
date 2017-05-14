@@ -7,7 +7,7 @@ class Nuget < Formula
 
   bottle :unneeded
 
-  depends_on "mono"
+  depends_on :mono => "3.2"
 
   def install
     libexec.install "NuGet.exe" => "nuget.exe"

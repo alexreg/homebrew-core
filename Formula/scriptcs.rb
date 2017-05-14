@@ -11,7 +11,7 @@ class Scriptcs < Formula
     sha256 "21891cea519df48979320ba74660002d270fb414181e3f7087505169af15a471" => :yosemite
   end
 
-  depends_on "mono"
+  depends_on :mono => "3.2"
 
   def install
     script_file = "scriptcs.sh"
